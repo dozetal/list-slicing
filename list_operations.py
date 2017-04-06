@@ -110,7 +110,7 @@ def middle(input_list):
 
     """
 
-    return []
+    return input_list[2:-2] # This provides the middle excl first / last 2 items
 
 
 def inner_four(input_list):
@@ -123,7 +123,7 @@ def inner_four(input_list):
 
     """
 
-    return []
+    return input_list[2:6] # This provides the 3rd through 6th items
 
 
 def inner_four_end(input_list):
