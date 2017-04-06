@@ -84,7 +84,7 @@ def first_three(input_list):
 
     """
 
-    return []
+    return input_list[:3]  # This should be (s/b) first 3 items
 
 
 def last_five(input_list):
@@ -97,7 +97,7 @@ def last_five(input_list):
 
     """
 
-    return []
+    return input_list[-5:]  # This s/b last 5 items
 
 
 def middle(input_list):
