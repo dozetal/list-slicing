@@ -84,7 +84,7 @@ def first_three(input_list):
 
     """
 
-    return input_list[:3]  # This should be (s/b) first 3 items
+    return input_list[:3]  # This returns the first 3 items
 
 
 def last_five(input_list):
@@ -97,7 +97,7 @@ def last_five(input_list):
 
     """
 
-    return input_list[-5:]  # This s/b last 5 items
+    return input_list[-5:]  # This returns the last 5 items
 
 
 def middle(input_list):
@@ -156,7 +156,6 @@ def replace_head(input_list):
 
     input_list[0] = 42  # This will change the first item to 42
 
-# This is where we last succeeded. Everything before here PASSED
 
 def replace_third_and_last(input_list):
     """Replace third and last elements of input_list with 37 and return nothing.
@@ -170,7 +169,9 @@ def replace_third_and_last(input_list):
 
     """
 
-    # This replaces the 3rd and the last items with 37 and WORKS
+    # This replaces the 3rd and the last items with 37 and WORKS. 
+    # Try to unpack this puppy tomorrow
+
     input_list[2] = 37
     input_list[-1] = 37
 
@@ -208,8 +209,7 @@ def delete_third_and_seventh(input_list):
 
     del input_list[2]
     del input_list[5]   # This deletes the third and the seventh items
-    return None
-
+    
 
 def delete_middle(input_list):
     """Remove all elements from input_list except the first two and last two.
@@ -226,8 +226,7 @@ def delete_middle(input_list):
     """
 
     del input_list[2:-2] # This deletes all except the first two and last two items
-    return None
-
+    
 ##############################################################################
 # END OF MAIN EXERCISE.  Yay!  You did it! You Rock!
 #
