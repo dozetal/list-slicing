@@ -207,7 +207,7 @@ def delete_third_and_seventh(input_list):
     """
 
     del input_list[2]
-    del input_list[5]   # This should delete the third and the seventh items
+    del input_list[5]   # This deletes the third and the seventh items
     return None
 
 
@@ -225,8 +225,8 @@ def delete_middle(input_list):
 
     """
 
-    pass
-
+    del input_list[2:-2] # This deletes all except the first two and last two items
+    return None
 
 ##############################################################################
 # END OF MAIN EXERCISE.  Yay!  You did it! You Rock!
