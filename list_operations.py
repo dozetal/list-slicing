@@ -170,7 +170,7 @@ def replace_third_and_last(input_list):
 
     """
 
-    # This replaces the 3rd and the last items with 37
+    # This replaces the 3rd and the last items with 37 and WORKS
     input_list[2] = 37
     input_list[-1] = 37
 
@@ -191,7 +191,7 @@ def replace_middle(input_list):
 
     """
 
-    pass
+    input_list[2:-2] = [42, 37]   # This replaces the middle items excl 2 / -2
 
 
 def delete_third_and_seventh(input_list):
@@ -206,7 +206,9 @@ def delete_third_and_seventh(input_list):
 
     """
 
-    pass
+    del input_list[2]
+    del input_list[5]   # This should delete the third and the seventh items
+    return None
 
 
 def delete_middle(input_list):
